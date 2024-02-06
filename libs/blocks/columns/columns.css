@@ -5,12 +5,12 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.columns{
+.columns.contained {
   max-width: var(--grid-container-width);
   margin: 0 auto;
 }
 
-.columns.middle {
+.columns.contained.middle {
   align-items: center;
 }
 
